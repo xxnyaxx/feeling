@@ -1,0 +1,51 @@
+
+body{
+  background-image:url("C:/Users/viole/Downloads/背景用.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  margin:0;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+ 
+
+}
+.container{
+  width:100%;
+  max-width:600px;
+  margin: 0auto;
+  text-align:center;
+}
+
+
+.subtitle{
+  color:#d98da9;
+  font-size:14px;
+  letter-spacing:3px;
+}
+
+
+.choice-button{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  margin-top:25px;
+}
+.choice-button{
+  width:100%;
+  padding:17px;
+  border:2px solid #f5d1df;
+  border-radius:20px;
+  background:#ffffff;
+  color:#98677b;
+  font-size:16px;
+  transition:0.3s;
+}
